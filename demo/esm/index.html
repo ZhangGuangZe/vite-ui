@@ -1,4 +1,5 @@
 <h1>Demo</h1>
+<link rel="stylesheet" href="../../dist/style.css">
 <div id="app"></div>
 <script type="module">
   import { createApp } from "vue/dist/vue.esm-bundler.js";
@@ -6,7 +7,7 @@
 
   createApp({
     template: `
-      <ViteButton/>
+      <ViteButton>普通按钮</ViteButton>
       <JSXButton/>
       <SFCButton/>
   `}).use(ViteUI).mount('#app')
