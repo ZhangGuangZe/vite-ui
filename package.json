@@ -10,7 +10,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -22,9 +22,12 @@
     "@iconify-json/ic": "^1.1.14",
     "@vitejs/plugin-vue": "^4.3.1",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "@vue/test-utils": "^2.4.1",
+    "happy-dom": "^10.11.2",
     "unocss": "^0.55.2",
     "vite": "^4.4.9",
     "vitepress": "1.0.0-beta.3",
-    "vitepress-theme-demoblock": "^3.0.3"
+    "vitepress-theme-demoblock": "^3.0.3",
+    "vitest": "^0.34.3"
   }
 }
