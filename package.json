@@ -12,7 +12,9 @@
     "docs:serve": "vitepress serve docs",
     "test": "vitest",
     "lint": "eslint --fix --ext .vue,.js,.ts,.jsx,.tsx src",
-    "format": "prettier --write --cache \"**/*.[tj]s?(x)\""
+    "format": "prettier --write --cache \"**/*.[tj]s?(x)\"",
+    "prepare": "husky install",
+    "test:run": "vitest run"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +34,7 @@
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-vue": "^9.17.0",
     "happy-dom": "^10.11.2",
+    "husky": "^8.0.3",
     "prettier": "^3.0.3",
     "unocss": "^0.55.2",
     "vite": "^4.4.9",
